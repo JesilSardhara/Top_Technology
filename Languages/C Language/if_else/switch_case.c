@@ -8,7 +8,7 @@ int main(){
 	scanf("%d",&a);
 	printf("Enter a value ");
 	scanf("%d",&b);
-	printf("Enter a value 1 addition, 2substraction, 3divi, 4multi ");
+	printf("Enter a value 1 addi, 2substra, 3divi, 4multi ");
 	scanf("%d",&c);
 	
 	switch(c){
