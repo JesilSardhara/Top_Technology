@@ -2,7 +2,7 @@
 
 int main(){
 	
-//	int i,num;
+	int i,num;
 //	printf("enter number:");
 //	scanf("%d",&num);
 //	
@@ -12,7 +12,7 @@ int main(){
 	
 	
 	
-///	for(i=1;i<=10;i++){
+//	for(i=1;i<=10;i++){
 //		if(i<=5){
 //			printf("%d\n",i);
 //		}
@@ -38,9 +38,9 @@ int main(){
 ////			printf("%d\n",i);
 ////		}
 
-	for(i = 5; i < 50; i +=5){
-		printf("%d",i);
-	}
+//	for(i = 5; i < 50; i +=5){
+//		printf("%d",i);
+//	}
 	
 	
 	return 0;
