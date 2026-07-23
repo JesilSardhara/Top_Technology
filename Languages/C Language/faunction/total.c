@@ -19,12 +19,11 @@ int total(int n){
 
 void main()
 {
-	int num;
+	int n;
 	printf("Enter your num : ");
-	scanf("%d",&num);
+	scanf("%d",&n);
 	
-	printf("Num of value : %d",num);
-	printf("\nTotal Sum : %d",total(num));
+	printf("\nTotal Sum : %d",total(n));
 	
 	getch();
 }
