@@ -3,7 +3,7 @@
 
 int main()
 {
-	FILE *file = fopen("test.txt","w");
+	FILE *file = fopen("demo.txt","a");
 	
 //	file null 
 	
@@ -12,10 +12,7 @@ int main()
 		return 1;
 	}
 	
-//	file new entery
-	fprintf(file,"Hello this demo file\n");
-	fprintf(file,"this is my file\n");
-	fprintf(file,"this is my write file to writing..");
+	fputs("\nhello this append data ",file);	
 
 	fclose(file);
 	
