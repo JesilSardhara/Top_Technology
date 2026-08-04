@@ -23,10 +23,15 @@ class gurubank{
 		void withdraw(){
 			cout<<"\nwith draw a balance:";
 			cin>>withdr;
-			tbalance = totalbalance - withdr;
-			cout<<"\nYour Balance is:"<<tbalance;
-
+			if(totalbalance - withdr >= 500){
+       			tbalance = totalbalance - withdr;
+       			cout << "\nYour Balance is: " << tbalance;
+   			}
+  		    else{
+            	cout << "\nInsufficient Balance! Minimum balance of 500 must be maintained.";
+    		}
 		}
+		
 		
 		
 		void show(){
