@@ -7,8 +7,6 @@ int increaseFollowersByValue(int followers){
 	buyvalue = followers + 1000;
 	printf("\nfollowers By Values :%d",buyvalue);
 	printf("\nOrignal Followers :%d",followers);
-
-	
 	
 	return 0;
 }
