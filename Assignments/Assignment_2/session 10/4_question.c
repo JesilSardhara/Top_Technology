@@ -9,7 +9,6 @@ int main()
     printf("Enter your full name: ");
     fgets(fullName, sizeof(fullName), stdin);
 
-    // Newline remove ???? ????
     fullName[strcspn(fullName, "\n")] = 0;
 
     if (strlen(fullName) < 5)
