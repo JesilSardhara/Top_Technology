@@ -1,9 +1,10 @@
-CREATE DATABASE instaClone;
-USE instaClone;
+create database InstaClone;
 
-create table users (
-user_id int PRIMARY key,
-username varchar (30),
-email varchar (30),
-followers_count  INT
+use InstaClone;
+
+create table Users (
+    user_id int primary key,
+    username varchar(100),
+    email varchar(100),
+    followers_count int
 );
