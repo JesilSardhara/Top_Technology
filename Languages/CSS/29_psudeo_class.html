@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      ul li:first-child {
+        background-color: rgb(30, 114, 184);
+      }
+      ul li:last-child {
+        background-color: rgb(177, 63, 63);
+      }
+      ul li:nth-child(4) {
+        background-color: bisque;
+      }
+      ul li:nth-child(odd) {
+        background-color: rgb(133, 156, 214);
+      }
+      ul li:nth-last-child(1) {
+        background-color: azure;
+      }
+      .main {
+        height: 200px;
+        width: 200px;
+        border: 2px solid black;
+        transition:1s;
+      }
+      .main:hover {
+        background-color: aquamarine;
+        transform : translate(100px,100px);
+        border-radius:120px;
+      }
+      input{
+        margin-top: 50px;
+        border: none;
+      }
+      input:focus{
+        background-color: blanchedalmond;
+        color:blue;
+        outline: none;
+        border : 5px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>home</li>
+      <li>about</li>
+      <li>Contack</li>
+      <li>Help</li>
+
+      <li>home</li>
+      <li>about</li>
+      <li>Contack< /li></li>
+      <li>Help</li>
+
+      <li>home</li>
+      <li>about</li>
+      <li>Contack</li>
+      <li>Help</li>
+    </ul>
+    
+
+      <div class="main">
+      </div>
+
+      <div>
+        Focus   
+        <input <button type="text" placeholder="enter your name"></button>
+      </div>
+      
+    
+  </body>
+</html>

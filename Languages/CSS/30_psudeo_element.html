@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li::first-letter{
+            background-color: aqua;
+        }
+        .main::first-line{
+            background-color:blanchedalmond
+        }
+        .main::selection{
+            background-color: rgb(172, 98, 98);
+        }
+        ul li::before{
+            content: "7";
+        }
+        ul li::after{
+            content:"9"
+        }
+    </style>
+</head>
+<body>
+    <ul>
+      <li>home</li>
+      <li>about</li>
+      <li>Contack</li>
+      <li>Help</li>
+
+      <li>home</li>
+      <li>about</li>
+      <li>Contack< /li></li>
+      <li>Help</li>
+
+      <li>home</li>
+      <li>about</li>
+      <li>Contack</li>
+      <li>Help</li>
+    </ul>
+
+    <div class="main">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio iusto modi atque ad nihil culpa! Commodi repudiandae iusto aut aspernatur? Laborum corporis vel, obcaecati cum necessitatibus et doloribus voluptatem dolore.
+    </div>
+</body>
+</html>
