@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-image:url("Z:\Top_Technology\my web\1_web\images\Image.png")
+}
+.nav{
+background-color: rgb(37, 19, 87);
+display: flex;
+justify-content: space-between;
+}
+.nav-ul .nav-li{
+    display: inline-block;
+    margin: 10px;
+}
+.nav-ul .nav-li .nav-a{
+    text-decoration: none;
+    color : rgb(255, 255, 255) ;
+}
+
+.icon i{
+    color: white;
+    font-size: 21px;
+    align-items: center;
+    margin-top: 25px;
+    margin-right: 25px;
+}
