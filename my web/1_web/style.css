@@ -3,27 +3,75 @@
     margin: 0px;
     box-sizing: border-box;
 }
+/*Novebar*/
+
 .container{
-    background-image:url("Z:\Top_Technology\my web\1_web\images\Image.png")
+    width: 100px;
 }
 .nav{
 background-color: rgb(37, 19, 87);
 display: flex;
 justify-content: space-between;
 }
+.logo {
+    width: 150px;
+    margin-left: 40px;
+}
 .nav-ul .nav-li{
     display: inline-block;
-    margin: 10px;
+    margin: 10px 20px;
 }
 .nav-ul .nav-li .nav-a{
     text-decoration: none;
     color : rgb(255, 255, 255) ;
+    font-size: 25px;
+    margin-top: 10px;
 }
 
 .icon i{
     color: white;
-    font-size: 21px;
+    font-size: 25px;
     align-items: center;
-    margin-top: 25px;
-    margin-right: 25px;
+    margin-top: 14px;
+    margin-right: 40px;
+}
+
+/*hero Section*/
+
+.hero{
+    background-image:url("./images/Image.png");
+    height: 780px;
+    background-size: cover;
+    background-position: center;
+}
+.hero-content{
+   position: absolute;
+    top: 100px;
+    left: 40px;
+    width: 480px;
+    color: white;
+}
+.hero-content h1{
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+.hero-content p{
+    font-size: 20px;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+.hero-content button{
+    background-color: rgb(37, 19, 87);
+     color: white;
+
+     border: none;
+     border-radius: 30px;
+     
+    padding:14px 50px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor:pointer;
 }
