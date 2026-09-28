@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Stylet</title>
+    <style>
+        
+        .sty{
+            background: linear-gradient(red,yellow,pink) ;
+            text-align: center;
+            font-size: 100px;
+        }             
+        .button{
+            border-radius: 20px;
+            padding: 20px;
+            margin: 20px;
+        }    
+    </style>
+</head>
+<body>
+    <h1 id="h1">This Is My Writen Text</h1>
+
+    <button class="button" onclick="add()">add Style</button>
+    <button class="button" onclick="remove()">remove Style</button>
+    <button class="button" onclick="both()">Togglecss</button>
+
+    <script>
+
+        let h1 = document.getElementById("h1")
+
+        function add(){
+            h1.classList.add("sty")
+        }
+
+        function remove(){
+            h1.classList.remove("sty")
+        }
+
+        function both(){
+            h1.classList.toggle("sty")
+        }
+
+    </script>
+
+</body>
+</html>

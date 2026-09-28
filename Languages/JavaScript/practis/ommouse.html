@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onmouseenter-leave</title>
+</head>
+<body>
+    
+    <h1 id="h1" onmouseenter="enter()" onmouseleave="leave()">My name Hero</h1>
+
+
+    <script>
+        let h1 = document.getElementById("h1")
+
+        function enter(){
+            h1.innerHTML ="IRONMAN"
+            h1.style.color = "red"
+            h1.style.backgroundColor = "black"
+            h1.fontsize = "50"
+        }
+
+        function leave(){
+            h1.innerHTML ="IRONMAN"
+            h1.style.color = "dark      green"
+            h1.style.backgroundColor = "white"
+            h1.fontsize = "30"
+        }
+        
+    </script>
+
+</body>
+</html>
