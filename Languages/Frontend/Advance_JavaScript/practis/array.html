@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array</title>
+</head>
+<body>
+    
+    <script>
+
+          let arr = [1,"smit",3,"nayan",5,"raghu",7,8,9,10]
+
+        //   basic
+
+        // for(let i=0;i<arr.length;i++){
+        //     console.log(arr[i])
+        // }
+
+         // 2) for of : value
+        
+        // for(let i of arr){
+        //     console.log(i)
+        // }
+
+        // console.log("<br>")
+
+        // 3) for in : index , value[index] 
+
+        // for(let i in arr){
+        //     console.log(i)
+        // }
+        //  console.log("<br>")
+        // for(let i in arr){
+        //     console.log(arr[i])
+        // }
+
+        // 4) for each loop
+
+        arr.forEach((value,index)=>{
+            // console.log(value)
+            // console.log(index)
+            document.write(`<h4>${index} ${value}</h4>`)
+            // document.write(`<h4> "index = "${index} = "value" ${value}</h4>`)
+        })
+        
+    </script>
+
+</body>
+</html>
