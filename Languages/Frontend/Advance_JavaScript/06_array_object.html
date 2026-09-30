@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array Of Object</title>
+  </head>
+  <body>
+    <script>
+
+        
+        // 1) array inside array
+
+        let arr = [1,2,3,[4,5,6,[7,8,9]]]
+
+        // console.log(arr[3][3][0])
+        // console.log(arr[3][3][0])
+        // console.log(arr[3][0])
+        // console.log(arr[1])
+        // console.log(arr)
+        
+        // 2) array inside object 
+
+         let arr1 = [1,2,3,{
+            name :"shubham",
+            course:"front-end"
+        },67,7,9,0]
+
+        // console.log(arr1[5])
+
+        // console.log(arr1[3].name)
+
+        // console.log(arr1[6])
+
+        
+         // 3) object inside object
+        
+        let person = {
+            name :"het",
+            course:{
+                front:"front-end",
+                back:"back-and"
+            },
+            age:34
+        }
+
+        // console.log(person.course.back)
+
+        // console.log(person.age)
+
+        // console.log(person.name)
+
+
+          // 4) object inside array
+
+        let person1 = {
+            name :"het",
+            course:["front","back","MERN_STACK"],
+            age:34
+        }
+
+        console.log(person1.name)
+        
+        console.log(person1.course)
+
+        console.log(person1.age)
+
+        console.log(person1.course[2])
+
+        console.log(person1.course[0])
+
+
+    </script>
+  </body>
+</html>
