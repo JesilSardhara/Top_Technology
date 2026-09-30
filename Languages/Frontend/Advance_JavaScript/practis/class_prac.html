@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank JS</title>
+  </head>
+  <body>
+    <script>
+      class bank {
+        x = function Details(pin, blance) {
+          let BankName = "HDFC";
+          let BankIfsc = "HDFC0001H";
+          let Bankblance = blance;
+          let Bankpin = pin;
+
+          console.log("bank Name : ", BankName);
+          console.log("bank IFSC : ", BankIfsc);
+          console.log("bank Blance : ", Bankblance);
+          console.log("bank Pin : ", Bankpin);
+        };
+        y = function deposite() {
+          console.log("Hello Deposite");
+        };
+      }
+
+      let het = new bank();
+      console.log(het);
+
+      het.x(123, 5000);
+      het.y();
+
+      const user = new Bank();
+      console.log(user);
+      
+      user.x(234, 5767);
+    </script>
+  </body>
+</html>
