@@ -6,23 +6,28 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- object :  collection of multiple value store in single varibale {} 
-        
-        Key and value : pair
     
-    -->
+
+    <!-- setinterval : every 1 sec auatomaticall call -->
 
     <script>
 
-        let person = {
-            name : "het",
-            age : 25,
-            course : "Front-end"
-        }
-        console.log(person)
+        // setinterval : every 1 sec auatomaticall call
 
-        console.log(person.course)
-        document.write(person.name)
+        function test(){
+            console.log("Interval")
+            document.write("inveral <br>")
+        }
+
+        setInterval(test,1000)
+
+
+        // setTimeout : every 1 sec auatomaticall after 1 sec stop
+        function demo(){
+            console.log("Time data")
+        }
+
+        setTimeout(demo,2000)
 
     </script>
 
