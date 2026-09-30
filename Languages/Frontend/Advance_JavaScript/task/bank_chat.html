@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat gpt Bank</title>
+  </head>
+  <body>
+    <script>
+      class Bank {
+        BankName = "HDFC";
+        BankIfsc = "HDFC0001H";
+
+        details = function (pin, balance) {
+          this.Bankpin = pin;
+          this.balance = balance;
+
+          console.log("Bank Name : ", this.BankName);
+          console.log("Bank IFSC : ", this.BankIfsc);
+          console.log("Bank Pin : ", this.Bankpin);
+          console.log("Bank Balance : ", this.balance);
+        };
+
+        deposit = function (amount) {
+          this.balance = this.balance + amount;
+
+          console.log("Deposit Amount : ", amount);
+          console.log("New Balance : ", this.balance);
+        };
+
+        withdraw = function (amount) {
+          if (amount <= this.balance) {
+            this.balance = this.balance - amount;
+
+            console.log("Withdraw Amount : ", amount);
+            console.log("Remaining Balance : ", this.balance);
+          } else {
+            console.log("Insufficient Balance");
+          }
+        };
+      }
+
+      const het = new Bank();
+
+      het.details(7777, 5000);
+
+      het.deposit(3000);
+
+      het.deposit(2000);
+
+      het.withdraw(1000);
+
+      console.log("Final Balance : ", het.balance);
+    </script>
+  </body>
+</html>
