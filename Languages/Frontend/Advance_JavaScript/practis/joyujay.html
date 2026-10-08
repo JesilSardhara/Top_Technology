@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>js</title>
+  </head>
+
+  <body>
+    <script>
+      class account {
+        bankname = "SBI";
+        bankifsc = "sbin0060037";
+        // balance = 2000
+
+        constructor() {
+          this.balance = 2000;
+          console.log("your balance is : ", this.balance);
+        }
+
+        deposit(deposit) {
+          if (deposit > 0) {
+            this.balance = this.balance + deposit;
+            console.log("your deposite is : ", deposit);
+            console.log("your final balance is : ", this.balance);
+          }
+        }
+
+        withdraw(withdraw) {
+          if (withdraw > 0 && withdraw <= this.balance) {
+            this.balance = this.balance - withdraw;
+            console.log("your withdraw is : ", withdraw);
+            console.log("your final balance is : ", this.balance);
+          }
+        }
+      }
+
+      let balance = new account();
+
+      balance.deposit(5000);
+
+      // balance.withdraw(1000)
+
+      balance.withdraw(1000);
+      console.log("Ypur Final Balance is", balance.balance);
+      console.log("Bank Name is : ", balance.bankname);
+    </script>
+  </body>
+</html>
