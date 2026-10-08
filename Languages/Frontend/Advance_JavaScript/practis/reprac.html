@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let jsondata = `[
+    {
+        "id": 1,
+        "name": "het",
+        "course": "front-end"
+    },
+    {
+        "id": 2,
+        "name": "varj",
+        "course": "back-end"
+    },
+    {
+        "id": 3,
+        "name": "harshil",
+        "course": "full-stack"
+    }
+]`;
+
+let data =JSON.parse(jsondata)
+console.log(data)
+
+data.forEach((element)=>{
+    console.log(element)
+    document.write(`<h4>id : ${element.id} Name : ${element.name} course : ${element.course}</h4>`)
+})
+
+    </script>
+  </body>
+</html>
