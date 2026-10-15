@@ -37,7 +37,7 @@ function Hello() {
 
         {htmldata}
 
-        <h1>Sum : {10+26}</h1>
+        <h1>Sum : {10+26}</h1>  
 
     </>
   )
