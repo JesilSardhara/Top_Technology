@@ -3,14 +3,17 @@ import './App.css';
 import ClassComponent from './component_js/ClassCompo';
 import FunCompo from './component_js/FunCompo';
 import Hello from './Jsx/Helllo';
+import ClassProps from './props/ClassProps';
+import MainProps from './props/MainProps';
 
 function App() {
   return (
     
       <div>
-        <ClassComponent/> 
+        {/* <ClassComponent/> 
         <FunCompo/>
-        <Hello/>
+        <Hello/> */}
+        <MainProps/>
       </div>
      
   );
