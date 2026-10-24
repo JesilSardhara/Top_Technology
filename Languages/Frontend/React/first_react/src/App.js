@@ -8,6 +8,7 @@
   import FuncProps from './props/FuncProps';
   import ClassState from './State/ClassState';
   import FunState from './State/FunState';
+  import FunObject from'./State/FunObjec'
 
   function App() {
     return (
@@ -18,7 +19,8 @@
           <Hello/> */}
           {/* <MainProps/> */}
           {/* <ClassState/> */}
-          <FunState />
+          {/* <FunState /> */}
+          <FunObject />
         </div>
       
     );
